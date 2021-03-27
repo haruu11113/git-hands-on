@@ -54,6 +54,7 @@ This repository is for Git hands-on in the lab.
 - checkout (-b)
 - branch (-a, -D)
 - merge
+- log
 - .gitignoreについて
 - Githubでリポジトリ作成
 - GitKraken, Sourcetreeについて
