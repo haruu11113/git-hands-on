@@ -11,6 +11,10 @@ This repository is for git hands-on in the lab.
 - コードレビューとは
 
 # ハンズオンでやる事
+## 概要
+実際にgitを使う時の流れに沿ってコマンドを打っていく感じ？
+
+## やりたいコマンド一覧
 - pull
 - init
 - add
@@ -19,11 +23,18 @@ This repository is for git hands-on in the lab.
 - reset
 - config --local --edit
 - config --global --edit
-
 - Githubでリポジトリ作成
 
 
 # ファイル構成の説明
+.
+|
+|-README
+|-LICENSE
+|-docs/
+    |
+    |-index.html(remarkでスライドになってます。)
+    |-introduction.md(index.htmlの本文はここに書いて)
 
 
 # 参考資料
