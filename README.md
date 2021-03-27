@@ -37,7 +37,7 @@ This repository is for git hands-on in the lab.
 
 # ファイル構成の説明
 ```
-.
+./
 |
 |-README
 |-LICENSE
