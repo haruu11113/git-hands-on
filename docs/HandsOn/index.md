@@ -1,7 +1,7 @@
 
 class: center, middle
 
-# Thahhahahah
+# HandsOn
 
 ---
 
@@ -11,6 +11,3 @@ class: center, middle
 2. Deep-dive
 3. ...
 
----
-
-# Introduction
