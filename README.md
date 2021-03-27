@@ -1,6 +1,15 @@
 # git-hands-on
 This repository is for git hands-on in the lab.
 
+# このリポジトリでやる事
+- git, GitHubの勉強資料の作成
+- git, GitHubの勉強ができるリンク集の作成
+- git, GitHubのハンズオンができる資料の作成
+
+# 勉強を利用することで達成できるゴール
+- 一般的なgit, GitHubの利用方法を知る
+- git, GitHubを用い複数人で共同開発ができる
+
 # 勉強したい事一覧
 - gitとは
 - GitHub(GitLab)とは
