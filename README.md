@@ -37,9 +37,9 @@ This repository is for git hands-on in the lab.
 - gitのinstall, 設定
 - pull
 - init
-- add
+- add (-p)
 - commit
-- stash (save, -u)
+- stash (save, -u, pop, list)
 - reset
 - config --local --edit
 - config --global --edit
