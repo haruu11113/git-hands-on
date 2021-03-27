@@ -69,6 +69,7 @@ This repository is for git hands-on in the lab.
 - [【スライドあり】初学者向けgit勉強会を開催しました](https://www.infiniteloop.co.jp/blog/2016/02/torikore-git-1/)
 - [ドットインストール : git入門](https://dotinstall.com/lessons/basic_git)
 - [Progate: 【Mac】Gitの環境構築をしよう！](https://prog-8.com/docs/git-env)
+- [brainpadpr/git-hands-on](https://speakerdeck.com/brainpadpr/git-hands-on)
 # LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [LICENSE](https://github.com/haruu11113/git-hands-on/blob/main/LICENSE)
