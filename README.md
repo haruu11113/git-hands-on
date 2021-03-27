@@ -6,7 +6,8 @@ This repository is for git hands-on in the lab.
 1. __(座学)__ git, GitHubの勉強資料
 2. __(ハンズオン)__ git, GitHubのを実際に使ってみる
 
-※ スライドを作成する事にこだわらず、大体可能な外部資料があればそれを使う。  
+※ スライドを作成する事にこだわらず、大体可能な外部資料があればそれを使う。
+
 ※ 良さげな外部資料一覧も作成する。
 
 ## 資料利用者が達成出来るゴール
@@ -24,10 +25,14 @@ This repository is for git hands-on in the lab.
 ## 概要
 各項目についてスライドで学習する。スライドの作成にこだわらず、良さげな外部資料があればそれを使う。
 ## やりたい事
+### Lv. 初級(Beginner)
 - gitとは(~バージョン管理とは, バージョン管理のデファクトスタンダードは？~)
 - GitHub/GitLabとは
-- issue, branchとは (~共同開発におけるgit-flowの活用~)
+## Lv. 中級(Intermediate)
 - コミットについて(~コミットサイズ, コミットメッセージ~)
+- issue, branchとは (~共同開発におけるgit-flowの活用~)
+
+## Lv. 上級(Advanced)
 - マージ/プルリクエストとは
 - コードレビューとは
 
