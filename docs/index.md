@@ -1,4 +1,3 @@
-```
 ./
 |
 |-[Introduction](./Introduction/)
@@ -6,5 +5,4 @@
 |-[Intermediate](./Intermediate)
 |-[Advanced](./Advanced)
 |-[HandsOn](./HandsOn)
-```
 
