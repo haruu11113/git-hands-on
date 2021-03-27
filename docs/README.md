@@ -1,4 +1,4 @@
-# How to use remark
+# How to use docs
 
 ```
 cd docs
