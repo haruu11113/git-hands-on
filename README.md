@@ -5,6 +5,10 @@ This repository is for git hands-on in the lab.
 - gitとは
 - GitHub(GitLab)とは
 - Branchの使い方(git-flow)
+- コミットの切り方
+- コミットメッセージの書き方
+- マージリクエストとは
+- コードレビューとは
 
 # ハンズオンでやる事
 - pull
