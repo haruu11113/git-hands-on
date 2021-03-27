@@ -66,9 +66,15 @@ This repository is for Git hands-on in the lab.
 |-README
 |-LICENSE
 |-docs/
-    |
-    |-index.html(remarkでスライドになってます。)
-    |-introduction.md(index.htmlの本文はここに書いて)
+    |-Advanced/
+        |-index.html(remarkでスライドになってます。)
+        |-introduction.md(index.htmlの本文はここに書いて)
+    |-Beginner/
+    |-HandsOn/
+    |-Intermediate/
+    |-Introduction/
+    |-README.md
+    |-index.md(github.ioにて最初に表示される)
 ```
 
 # 5. 参考になりそうな資料置き場
