@@ -1,6 +1,6 @@
-- [Introduction](./Introduction/index)  
-- [Beginner](./Beginner/index)  
-- [Intermediate](./Intermediate/index)  
-- [Advanced](./Advanced/index)  
-- [HandsOn](./HandsOn/index)  
+- [Introduction](./Introduction/index.html)
+- [Beginner](./Beginner/index.html)
+- [Intermediate](./Intermediate/index.html)
+- [Advanced](./Advanced/index.html)
+- [HandsOn](./HandsOn/index.html)
 
