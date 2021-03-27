@@ -7,9 +7,15 @@ This repository is for git hands-on in the lab.
 - Branchの使い方(git-flow)
 
 # ハンズオンでやる事
+- pull
 - init
 - add
 - commit
+- stash
+- reset
+
+- Githubでリポジトリ作成
+
 
 # ファイル構成の説明
 
