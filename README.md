@@ -1,7 +1,7 @@
 # git-hands-on
 This repository is for git hands-on in the lab.
 
-# 概要
+# 1. 概要
 ## このリポジトリにあるコンテンツ
 1. __(座学)__ git, GitHubの勉強資料
 2. __(ハンズオン)__ git, GitHubのを実際に使ってみる
@@ -17,7 +17,7 @@ This repository is for git hands-on in the lab.
 - githubアカウントを作成済み(-> 良さげな外部資料探す)
 - macを使ってる(-> win, linux向け資料はそのうち作る)
 
-# 座学でやる事
+# 2. 座学でやる事
 ## 概要
 各項目についてスライドで学習する。スライドの作成にこだわらず、良さげな外部資料があればそれを使う。
 ## やりたい事
@@ -29,7 +29,7 @@ This repository is for git hands-on in the lab.
 - マージリクエストとは
 - コードレビューとは
 
-# ハンズオンでやる事
+# 3. ハンズオンでやる事
 ## 概要
 実際にgitを使う時の流れに沿ってコマンドを打っていく感じ？
 
@@ -50,7 +50,7 @@ This repository is for git hands-on in the lab.
 - Githubでリポジトリ作成
 - GitKraken, Sourcetreeについて
 
-# ファイル構成
+# 4. ファイル構成
 ```
 ./
 |
@@ -62,7 +62,7 @@ This repository is for git hands-on in the lab.
     |-introduction.md(index.htmlの本文はここに書いて)
 ```
 
-# 参考資料
+# 5. 参考になりそうな資料置き場
 - [アンド・ディ社内勉強会GitHub](https://www.and-d.co.jp/wp-content/uploads/2020/02/アンド・ディ社内勉強会GitHub.pdf)
 - [社内Git勉強会](https://qiita.com/rynkjm/items/5a6578c7b2b5f8698e6d)
 - [【スライドあり】初学者向けgit勉強会を開催しました](https://www.infiniteloop.co.jp/blog/2016/02/torikore-git-1/)
