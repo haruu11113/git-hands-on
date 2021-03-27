@@ -1,13 +1,22 @@
-
 class: center, middle
-
-# Beginner
+# Lv. 初級(Beginner)
 
 ---
-
 # Agenda
 
-1. Introduction
-2. Deep-dive
-3. ...
+1. Gitとは
+2. バージョン管理とは?
+3. デファクトスタンダード
+4. GitHub/GitLabとは
 
+---
+# Gitとは
+
+---
+# バージョン管理とは
+
+---
+# デファクトスタンダードは？
+
+---
+# GitHub/GitLabとは
