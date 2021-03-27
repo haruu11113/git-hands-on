@@ -27,6 +27,7 @@ This repository is for git hands-on in the lab.
 
 
 # ファイル構成の説明
+```
 .
 |
 |-README
@@ -35,7 +36,7 @@ This repository is for git hands-on in the lab.
     |
     |-index.html(remarkでスライドになってます。)
     |-introduction.md(index.htmlの本文はここに書いて)
-
+```
 
 # 参考資料
 - [アンド・ディ社内勉強会GitHub](https://www.and-d.co.jp/wp-content/uploads/2020/02/アンド・ディ社内勉強会GitHub.pdf)
