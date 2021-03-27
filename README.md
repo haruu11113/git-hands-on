@@ -1,16 +1,26 @@
 # git-hands-on
 This repository is for git hands-on in the lab.
 
-# このリポジトリでやる事
-- git, GitHubの勉強資料の作成
-- git, GitHubの勉強ができるリンク集の作成
-- git, GitHubのハンズオンができる資料の作成
+# 概要
+## このリポジトリにあるコンテンツ
+1. __(座学)__ git, GitHubの勉強資料
+2. __(ハンズオン)__ git, GitHubのを実際に使ってみる
 
-# 資料利用者が達成出来るゴール
-- 一般的なgit, GitHubの利用方法を知る
-- git, GitHubを用い複数人で共同開発ができる
+## 資料利用者が達成出来るゴール
+- git, GitHubの利用方法を知る
+- git, GitHubを用い複数人で共同開発方法を知る
+- git, GitHubを個人開発で利用できる
 
-# 勉強したい事一覧
+## 資料利用者の前提
+- git, GitHubが何かを知らない
+- 複数人での共同開発の中でgit, GitHubを使った事がない
+- githubアカウントを作成済み(-> 良さげな外部資料探す)
+- macを使ってる(-> win, linux向け資料はそのうち作る)
+
+# 座学でやる事
+## 概要
+各項目についてスライドで学習する。スライドの作成にこだわらず、良さげな外部資料があればそれを使う。
+## やりたい事
 - gitとは
 - GitHub(GitLab)とは
 - Branchの使い方(git-flow)
@@ -22,10 +32,6 @@ This repository is for git hands-on in the lab.
 # ハンズオンでやる事
 ## 概要
 実際にgitを使う時の流れに沿ってコマンドを打っていく感じ？
-
-## 資料利用者の前提
-- githubアカウントを作成済み(-> 良さげな外部資料探す)
-- macを使ってる(-> win, linuxはそのうち作る)
 
 ## やりたい事(コマンド)
 - gitのinstall, 設定
@@ -44,8 +50,7 @@ This repository is for git hands-on in the lab.
 - Githubでリポジトリ作成
 - GitKraken, Sourcetreeについて
 
-
-# ファイル構成の説明
+# ファイル構成
 ```
 ./
 |
@@ -66,4 +71,3 @@ This repository is for git hands-on in the lab.
 # LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [LICENSE](https://github.com/haruu11113/git-hands-on/blob/main/LICENSE)
-
