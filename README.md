@@ -6,7 +6,7 @@ This repository is for git hands-on in the lab.
 - git, GitHubの勉強ができるリンク集の作成
 - git, GitHubのハンズオンができる資料の作成
 
-# 勉強を利用することで達成できるゴール
+# 資料利用者が達成出来るゴール
 - 一般的なgit, GitHubの利用方法を知る
 - git, GitHubを用い複数人で共同開発ができる
 
@@ -23,16 +23,26 @@ This repository is for git hands-on in the lab.
 ## 概要
 実際にgitを使う時の流れに沿ってコマンドを打っていく感じ？
 
-## やりたいコマンド一覧
+## 資料利用者の前提
+- githubアカウントを作成済み(-> 良さげな外部資料探す)
+- macを使ってる(-> win, linuxはそのうち作る)
+
+## やりたい事(コマンド)
+- gitのinstall, 設定
 - pull
 - init
 - add
 - commit
-- stash
+- stash (save, -u)
 - reset
 - config --local --edit
 - config --global --edit
+- checkout (-b)
+- branch (-a, -D)
+- merge
+- .gitignoreについて
 - Githubでリポジトリ作成
+- GitKraken, Sourcetreeについて
 
 
 # ファイル構成の説明
