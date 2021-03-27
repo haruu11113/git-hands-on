@@ -17,6 +17,8 @@ This repository is for git hands-on in the lab.
 - commit
 - stash
 - reset
+- config --local --edit
+- config --global --edit
 
 - Githubでリポジトリ作成
 
@@ -28,6 +30,7 @@ This repository is for git hands-on in the lab.
 - [アンド・ディ社内勉強会GitHub](https://www.and-d.co.jp/wp-content/uploads/2020/02/アンド・ディ社内勉強会GitHub.pdf)
 - [社内Git勉強会](https://qiita.com/rynkjm/items/5a6578c7b2b5f8698e6d)
 - [【スライドあり】初学者向けgit勉強会を開催しました](https://www.infiniteloop.co.jp/blog/2016/02/torikore-git-1/)
+- [ドットインストール : git入門](https://dotinstall.com/lessons/basic_git)
 
 # LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
