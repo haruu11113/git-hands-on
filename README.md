@@ -84,6 +84,8 @@ This repository is for Git hands-on in the lab.
 - [ドットインストール : Git入門](https://dotinstall.com/lessons/basic_git)
 - [Progate: 【Mac】Gitの環境構築をしよう！](https://prog-8.com/docs/git-env)
 - [brainpadpr/git-hands-on](https://speakerdeck.com/brainpadpr/git-hands-on)
+
+# [強いコミュニティを作る](https://docs.github.com/ja/github/building-a-strong-community)
 # LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [LICENSE](https://github.com/haruu11113/git-hands-on/blob/main/LICENSE)
