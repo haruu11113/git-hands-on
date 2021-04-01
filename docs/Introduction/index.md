@@ -49,7 +49,7 @@ class: left, middle
 ---
 # git config
 ```
-$ git config --global user.name [GitHubに登録したユーザー名]
-$ git config --global user.email [GitHubに登録したメールアドレス]
+$ git config --global user.name GitHubに登録したユーザー名
+$ git config --global user.email GitHubに登録したメールアドレス
 ```
 
