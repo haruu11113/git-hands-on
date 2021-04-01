@@ -16,7 +16,17 @@ class: center, middle
 # バージョン管理とは
 
 ---
+# Gitのバージョン管理
+
+---
 # デファクトスタンダードは？
 
 ---
-# GitHub/GitLabとは
+# GitHubとは
+GitHubはgitのホスティングサービスです。  
+Git用のwebサーバを提供しており、複数人で同じプロジェクトを進める場合によく用いられます。
+Github以外にも下記に示すようなGitのホスティングサービスがあります。
+- [GitHub](github.com)
+- [GitLab](https://about.gitlab.com)
+- [backlog](https://backlog.com/ja/)
+- [bitbucket](https://bitbucket.org)
