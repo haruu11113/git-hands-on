@@ -42,6 +42,7 @@ class: left, middle
 この記事が良さげ。この記事で下記2つが出来る。
 - GitHubアカウントの作成
 - 2段階認証の設定
+- ssh鍵の設定
 
 [Qiita | 【2019年1月現在】GitHubアカウント作成方法](https://qiita.com/okumurakengo/items/848f7177765cf25fcde0)  
 [Qiita | GitHubでssh接続する手順~公開鍵・秘密鍵の生成から~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
