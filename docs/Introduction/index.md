@@ -37,6 +37,16 @@ class: left, middle
 ---
 # 資料について
 
+
+---
+# macにGitをインストールする
+
+```
+brew install git
+```
+
+[Download for macOS](https://git-scm.com/download/mac)
+
 ---
 # GitHubのアカウント作成
 この記事が良さげ。この記事で下記2つが出来る。
@@ -48,9 +58,57 @@ class: left, middle
 [Qiita | GitHubでssh接続する手順~公開鍵・秘密鍵の生成から~](https://qiita.com/shizuma/items/2b2f873a0034839e47ce)
 
 ---
-# git config
+# git config (しなくてもok)
+pc上でgitを使う場合、[local, global, system]という3種類の設定がある。  
+
+### 現在設定されている物を確認する
 ```
-$ git config --global user.name GitHubに登録したユーザー名
-$ git config --global user.email GitHubに登録したメールアドレス
+$ cd ~
+
+$ git config --local --list
+$ git config --global --list
+$ git config --system --list
 ```
+
+---
+# git config global
+### 実際に設定をしてみる
+```
+$ git config --global user.name "GitHubで設定したユーザ名(github.com/ユーザ名)"
+
+$ git config --global user.email GitHubで設定したメールアドレス
+```
+※これはpc上で全て同じGitHubアカウントを使う場合の設定 
+※複数のGitHubアカウントを使いたい場合は、上記設定をした上でlocalの設定も変更する必要あり
+
+---
+# git config global (しなくてもok)
+### global設定はどこに有るのか 
+
+```
+(現在推奨)
+~/.config/git/config
+~/.config/git/ignore
+
+(昔は下記だった？) ~/.gitconfig ~/. gitignore_global
+```
+
+~/.config/git/config
+
+``` ~/.config/git/config
+.DS_Store
+```
+
+※この二つのファイルはgithubで管理するのがおすすめ  
+->[ようこそdotfilesの世界へ](https://qiita.com/yutkat/items/c6c7584d9795799ee164)
+
+---
+# git config local (しなくてもok)
+### local設定はどこに有るのか
+
+```
+./.git/config
+```
+参考資料  
+[git docs](https://git-scm.com/book/ja/v2/%E4%BD%BF%E3%81%84%E5%A7%8B%E3%82%81%E3%82%8B-%E6%9C%80%E5%88%9D%E3%81%AEGit%E3%81%AE%E6%A7%8B%E6%88%90)
 
