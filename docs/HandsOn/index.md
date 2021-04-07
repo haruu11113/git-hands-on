@@ -8,16 +8,17 @@ class: center, middle
 # Agenda
 
 1. Gitのinstall
-2. (init, status)
-3. (add, commit)
+2. ローカルリポジトリの作成(init, status)
+3. コミットする(add, commit)
 4. Githubでリポジトリ作成
-5. (pull, stash)
-6. reset
-7. config
-8. (checkout, branch, merge)
-9. log, tig
-10. .gitignoreについて
-11. GitKraken, Sourcetreeについて
+5. リモートリポジトリの設定(push, pull, stash)
+6. config
+7. ブランチを切り替える(branch, checkout)
+8. マージする
+9. コミット履歴を確認(log, tig)
+10. 実際に使ってみよう
+11. .gitignoreについて
+12. GitKraken, Sourcetreeについて
 
 
 
@@ -162,7 +163,9 @@ $ git commit -m 'コミットメッセージ'
 
 
 ---
-# 4. Githubでリポジトリ作成 下記記事にそってgitHandsOnと言うリモートリポジトリを作成してください  ※ 「4,github上で新規レポジトリを作成」まで行ってください  
+# 4. Githubでリポジトリ作成
+下記記事にそってgitHandsOnと言うリモートリポジトリを作成してください  
+※ 「4,github上で新規レポジトリを作成」まで行ってください  
 ### [Qiita : Githubに新規リポジトリを追加](https://qiita.com/sodaihirai/items/caf8d39d314fa53db4db#4github%E4%B8%8A%E3%81%A7%E6%96%B0%E8%A6%8F%E3%83%AC%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%92%E4%BD%9C%E6%88%90)
 
 
@@ -205,7 +208,7 @@ $ git push リモートリポジトリ名 ブランチ名
 
 
 ---
-# 7. config
+# 6. config
 
 ```terminal
 gitHandsOn $ git config --local --list
@@ -215,7 +218,7 @@ gitHandsOn $ git config --global --list
 
 
 ---
-# 8. ブランチを切り替える(branch, checkout)
+# 7. ブランチを切り替える(branch, checkout)
 ## branch
 ローカルリポジトリのブランチ一覧
 ```terminal
@@ -233,7 +236,7 @@ gitHandsOn $ git branch -a
 
 
 ---
-# 8. ブランチを切り替える
+# 7. ブランチを切り替える
 ## checkout
 新しいブランチの作成 & ブランチを切り替える
 ```terminal
@@ -252,7 +255,7 @@ gitHandsOn $ git branch -a
 
 
 ---
-# 8. ブランチを切り替える
+# 7. ブランチを切り替える
 ## checkout
 member.mdを修正する  
 普段使っているテキストエディタで作成してok  
@@ -268,7 +271,7 @@ gitHandsOn $ cat member.md
 
 
 ---
-# 8. ブランチを切り替える
+# 7. ブランチを切り替える
 ## checkout
 ### tips
 ```terminal
@@ -281,7 +284,7 @@ $ git checkout origin リモートのブランチ名
 
 
 ---
-# 8. マージする
+# 8. マージする(merge)
 ## merge
 mainブランチにharrudesuyoブランチをマージする
 ブランチをmain切り替える
@@ -320,7 +323,7 @@ gitHandsOn $ cat member.md
 
 
 ---
-# 9. log, tig
+# 9. コミット履歴を確認(log, tig)
 ## log
 ローカルリポジトリのコミットの履歴が見れる
 ```terminal
@@ -335,7 +338,7 @@ githandson $ git log
 
 
 ---
-# 9. log, tig
+# 9. コミット履歴を確認
 ## tig
 ローカルリポジトリのコミットの履歴が見れる
 これは僕がおすすめのツール(コマンド)です  
@@ -365,8 +368,7 @@ $ cd gitHandsOn_team
 ```terminal
 gitHandsOn_team $ ls
 > .   ..   .git  .gitignore   member.md
-gitHandsOn_team $ cat member.md
-> メンバー一覧
+gitHandsOn_team $ cat member.md > メンバー一覧
 > haruu11113
 ```
 
@@ -384,7 +386,7 @@ member.mdの自分のあだ名を追加してpushまでしよう。
 
 
 ---
-# 10. .gitignoreについて
+# 11. .gitignoreについて
 .gitignoreを用いる事で、リポジトリに追加しないフォルダ・ファイルを指定できます。
 ```terminal
 gitHandsOn_team $ cat .gitignore
@@ -397,7 +399,7 @@ gitHandsOn_team $ cat .gitignore
 
 
 ---
-# 10. .gitignoreについて
+# 11. .gitignoreについて
 global ignoreに.DS_Storeを追記する
 普段使っているテキストエディタで作成してok  
 1行目に.DS_Storeを追記する
@@ -415,7 +417,7 @@ local ignoreは大抵の場合使われるフレームワークにより何を�
 
 
 ---
-# 11. GitKraken, Sourcetreeについて
+# 12. GitKraken, Sourcetreeについて
 GitKrakenやSourcetreeは、gitをGUI（グラフィカルユーザーインターフェース）で操作する事が出来るアプリケーションです。
 (個人的にエンジニアとして働く予定なら、コマンドを覚えておいて損はないと思います)
 
